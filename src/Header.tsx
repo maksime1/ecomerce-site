@@ -16,7 +16,6 @@ type Props = {
 export default function Header({
   productCount,
   setProductCount,
-  showCart,
   setShowCart,
 }: Props) {
   const [show, setShow] = useState<boolean>(false);
